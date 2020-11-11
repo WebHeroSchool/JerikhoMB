@@ -39,6 +39,7 @@ body{
 .menu {
   display: flex;
   align-items: center;
+  font: normal 18px/21px roboto;
 }
 .menu__item {
   padding: 0 13px;
