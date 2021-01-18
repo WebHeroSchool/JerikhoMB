@@ -1,4 +1,6 @@
-.main-content__title {
+.main {
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url('image/mainimg.svg');
   font-family: 'PT Serif', serif;
 }
 body{
@@ -11,6 +13,7 @@ body{
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .logo {
   position: relative;
@@ -63,4 +66,28 @@ body{
 }
 .menu__item:hover:after {
   transform: scale(1);
+}
+.main__title {
+  margin: 0 0 40px 0;
+  font: bold 50px/66px PT serif, arial, helvetica, sans-serif;
+}
+.main__subtitle {
+  margin: 0 0 41px 0;
+  font: 400 22px/25px Roboto; arial, helvetica, sans-serif;
+}
+.main__button {
+  display: inline-block;
+  padding: 14px 16px;
+  font: 500 18px/21px Roboto; arial, helvetica, sans-serif;
+  background: #0056EC;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity .5s;
+}
+.main__button:hover {
+  opacity: .5
+}
+.main__title-text_highlight {
+  background: #ECF3FF;
 }
