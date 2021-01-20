@@ -1,6 +1,7 @@
 .main {
   padding: 0 63% 180px 0;
   background: top right no-repeat url('image/mainimg.svg');
+  background-position: 99% 240%;
   font-family: 'PT Serif', serif;
 }
 body{
@@ -77,7 +78,7 @@ body{
  }
  .main__button {
    display: inline-block;
-   padding: 14px 16px;
+   padding: 18px 28px;
    font: 500 18px/21px Roboto; arial, helvetica, sans-serif;
    background: #0056EC;
    border-radius: 4px;
