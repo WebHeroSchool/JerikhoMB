@@ -1,7 +1,7 @@
 .main {
-  padding: 0 63% 180px 0;
+  padding: 207px 63% 180px 0;
   background: top right no-repeat url('image/mainimg.svg');
-  background-position: 99% 240%;
+  background-position: 99% 80%;
   font-family: 'PT Serif', serif;
 }
 body{
@@ -14,7 +14,6 @@ body{
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 207px;
 }
 .logo {
   position: relative;
@@ -46,13 +45,13 @@ body{
   }
 .menu__item {
   position: relative;
-  margin-right: 30px;
+  margin-right: 29px;
   font: 500 18px/21px Roboto; arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   }
 .menu__item:last-child {
-  margin-right: 0;
+  margin-right: 10px;
 }
 .menu__item:after {
   position: absolute;
@@ -73,7 +72,7 @@ body{
    font: bold 66px/85px PT serif, arial, helvetica, sans-serif;
  }
  .main__subtitle {
-   margin: 0 0 41px 0;
+   margin: 0 90px 41px 0;
    font: 400 22px/26px Roboto; arial, helvetica, sans-serif;
  }
  .main__button {
